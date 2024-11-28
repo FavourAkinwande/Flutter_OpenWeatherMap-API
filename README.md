@@ -1,7 +1,7 @@
-### **Project Analysis**
+### **Project Overview**
 
-Your project, WeatherWise App, is a weather application built using **Flutter**. The application fetches weather data and displays it in a user-friendly format. The app interacts with the **OpenWeatherMap API**, a widely-used weather data service. B
----
+My project, WeatherWise App, is a weather application built using Flutter. The application fetches weather data and displays it in a user-friendly format. The app interacts with the OpenWeatherMap API, a widely-used weather data service.
+
 
 ## **API Chosen and Its Purpose**
 

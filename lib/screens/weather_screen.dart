@@ -58,7 +58,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
             return Container(
               decoration: BoxDecoration(
                 gradient: LinearGradient(
-                  colors: [Colors.blue.shade400, Colors.blue.shade900], // Beautiful gradient for the background
+                  colors: [Colors.blue.shade400, Colors.blue.shade900], // Gradient for the background
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,
                 ),
@@ -70,7 +70,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
                   Card(
                     elevation: 5,
                     shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(15), // Rounded corners for the card
+                      borderRadius: BorderRadius.circular(15), // Rounded edges for the card
                     ),
                     color: Colors.white,
                     child: Padding(

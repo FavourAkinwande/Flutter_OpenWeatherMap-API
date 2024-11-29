@@ -3,8 +3,7 @@ import 'package:http/http.dart' as http;
 
 
 class WeatherService {
-  final String apiKey = 'a1f1fa58960c4cf8bb3124a493401cb8'; // Replace with your actual OpenWeather API key
-  
+  final String apiKey = 'a1f1fa58960c4cf8bb3124a493401cb8'; 
   // Base URLs for the current weather and forecast endpoints
   final String currentWeatherUrl = 'https://api.openweathermap.org/data/2.5/weather';
   final String forecastUrl = 'https://api.openweathermap.org/data/2.5/forecast';

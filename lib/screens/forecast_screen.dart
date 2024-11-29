@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../API/weather_service.dart';  // Ensure you're importing WeatherService
+import '../API/weather_service.dart';  // importing WeatherService
 
 class ForecastScreen extends StatefulWidget {
   final String cityName;
@@ -49,7 +49,7 @@ class _ForecastScreenState extends State<ForecastScreen> {
 
             return Container(
               decoration: BoxDecoration(
-                gradient: LinearGradient(  // Add a gradient background for a modern feel
+                gradient: LinearGradient(  // Add a gradient background 
                   colors: [Colors.blue.shade300, Colors.blue.shade900],
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,
@@ -63,7 +63,7 @@ class _ForecastScreenState extends State<ForecastScreen> {
                     margin: const EdgeInsets.symmetric(vertical: 10, horizontal: 16),
                     elevation: 5,
                     shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(15),  // Round the corners of the card for a sleek design
+                      borderRadius: BorderRadius.circular(15),  // Round the edges of the card for a sleek design
                     ),
                     color: Colors.white,  // Set card color to white
                     child: Padding(
@@ -147,7 +147,7 @@ class _ForecastScreenState extends State<ForecastScreen> {
     return groupedData.values.toList();
   }
 
-  // Function to format the day of the forecast (e.g., '2023-10-16 12:00:00' -> 'Monday')
+  // Function to format the day of the forecast 
   String _formatDay(String date) {
     final DateTime parsedDate = DateTime.parse(date);
     return _getDayOfWeek(parsedDate.weekday);  // Get the weekday as a string

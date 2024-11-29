@@ -33,20 +33,20 @@ class AboutScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              // App image/logo (Optional: customize with your image)
+             
               Image.asset(
                 'assets/images/globe.png',  // Placeholder image for the app logo
-                width: 200,  // Adjustable width for better fit
-                height: 200,  // Adjustable height
+                width: 200,  // width for better fit
+                height: 200,  // height
               ),
-              const SizedBox(height: 20),  // Spacer between image and text
+              const SizedBox(height: 20),  
               
-              // Header Text: Introduction to the app
+              // Header Text: 
               const Text(
                 'Welcome to Weather Wise!',
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                  fontSize: 24,  // Increased font size for header visibility
+                  fontSize: 24,  // font size for header visibility
                   fontWeight: FontWeight.bold,
                   color: Colors.white,  // White color for contrast against the background
                 ),
